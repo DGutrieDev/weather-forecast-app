@@ -33,7 +33,7 @@ function convertTimeStamp(timestamp, timezone){
       timeZone: `Etc/GMT${convertTimezone >= 0 ? "-" : "+"}${Math.abs(convertTimezone)}`,
       hour12: true,
   }
-  return date.toLocaleString("es-US", options).toUpperCase()
+  return date.toLocaleString("en-US", options).toUpperCase()
 }
 
 export default body_box;
