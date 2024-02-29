@@ -16,7 +16,7 @@ function App() {
   const handleSearch = async () => {
     try {
       const weather_response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city},uk&appid=${API_key}&units=${unit}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_key}&units=${unit}`
       );
       weather_response.data.weather[0].description = weather_response.data.weather[0].description.toUpperCase();
       setWeather(weather_response.data);
