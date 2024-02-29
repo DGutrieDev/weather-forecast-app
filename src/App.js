@@ -38,6 +38,7 @@ function App() {
   };
 
   return (
+    <div className="background_cont">
     <div className="container">
       <HeaderContent
         city={city}
@@ -57,6 +58,7 @@ function App() {
         )}
         {weather && <InfoContent weather={weather} unit={unit}></InfoContent>}
       </div>
+    </div>
     </div>
   );
 }
