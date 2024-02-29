@@ -45,4 +45,5 @@ Start the server
 ```
 Search City
 ```
-  Use the format City,Country.. Example -> London,GB
+  Use the format City,Country..
+Example -> London,GB
