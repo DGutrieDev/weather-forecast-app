@@ -43,3 +43,6 @@ Start the server
 ```bash
   npm run start
 ```
+Search City
+```
+  Use the format City,Country.. Example -> London,GB
