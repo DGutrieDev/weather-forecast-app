@@ -7,7 +7,7 @@ function header({city,setCity,handleSearch,toggleA,toggleB}){
       <form className="weather__search" action="">
         <input
           type="text"
-          placeholder="Search for a city..."
+          placeholder="London,GB"
           value={city}
           onChange={(e) => setCity(e.target.value)}
           className="weather__searchform"

@@ -44,7 +44,7 @@ input {
 }
 
 input::placeholder {
-    color: #fff;
+    color: #ffffff7a;
 }
 
 .weather__search {
@@ -177,7 +177,7 @@ input::placeholder {
     }
     
     input::placeholder {
-        color: #fff;
+        color: #ffffff7a;
     }
 
     .weather__info {
