@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <FontAwesomeIcon icon="home" style={{color:'white'}}/>
+    <FontAwesomeIcon icon="" style={{color:'white'}}/>
   </React.StrictMode>
 );
 
