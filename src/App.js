@@ -32,8 +32,8 @@ function App() {
   };
 
   const toggleDataFarenheit = async () => {
-      const newUnit = 'imperial'; // Cambiamos la unidad a imperial
-      setUnit(newUnit); // Actualizamos el estado de la unidad
+      const newUnit = 'imperial';
+      setUnit(newUnit); 
       handleSearch();
   };
 
